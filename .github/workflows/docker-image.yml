@@ -14,11 +14,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+    # - name: Build the Docker image
+    #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     
-    - name: Run direct
-      run: dotnet restore "./dotnet/DotNet.Docker.csproj" --logger:"GitHubActions;report-warnings=true"
+    - name: scan-packages
+      # run: dotnet restore "./dotnet/DotNet.Docker.csproj" --logger:"GitHubActions;report-warnings=true"
+        run: |
+          cd $(Build.SourcesDirectory)/dotnet/
+          dotnet "./dotnet/DotNet.Docker.csproj" list package --vulnerable
 
         
     # - name: Build and push
