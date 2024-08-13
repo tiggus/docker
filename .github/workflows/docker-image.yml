@@ -18,7 +18,7 @@ jobs:
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     
     - name: Run direct
-      run: dotnet restore "./dotnet/DotNet.Docker.csproj"
+      run: dotnet restore "./dotnet/DotNet.Docker.csproj" --logger:"GitHubActions;report-warnings=true"
 
         
     # - name: Build and push
