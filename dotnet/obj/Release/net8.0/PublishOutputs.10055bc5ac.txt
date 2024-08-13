@@ -1,0 +1,5 @@
+C:\git\docker\dotnet\bin\Release\net8.0\publish\DotNet.Docker.exe
+C:\git\docker\dotnet\bin\Release\net8.0\publish\DotNet.Docker.dll
+C:\git\docker\dotnet\bin\Release\net8.0\publish\DotNet.Docker.deps.json
+C:\git\docker\dotnet\bin\Release\net8.0\publish\DotNet.Docker.runtimeconfig.json
+C:\git\docker\dotnet\bin\Release\net8.0\publish\DotNet.Docker.pdb
