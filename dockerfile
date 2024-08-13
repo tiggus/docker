@@ -9,7 +9,7 @@ COPY . ./
 RUN ls
 
 # Restore as distinct layers
-RUN dotnet restore
+RUN dotnet restore "./DotNet.Docker.csproj"
 
 # Build and publish a release
 RUN dotnet publish -c Release -o out
