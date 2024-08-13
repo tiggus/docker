@@ -20,7 +20,7 @@ jobs:
     - name: scan-packages
       # run: dotnet restore "./dotnet/DotNet.Docker.csproj" --logger:"GitHubActions;report-warnings=true"
       run: |
-        cd $(Build.SourcesDirectory)/dotnet/
+        cd ./dotnet/
         dotnet "./dotnet/DotNet.Docker.csproj" list package --vulnerable
 # run: |
 #   command1 --option1
