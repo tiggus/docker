@@ -6,6 +6,7 @@ WORKDIR /dotnet
 RUN pwd
 RUN ls
 COPY . ./
+RUN ls
 
 # Restore as distinct layers
 RUN dotnet restore
