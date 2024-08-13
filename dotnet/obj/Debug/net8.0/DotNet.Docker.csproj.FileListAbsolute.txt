@@ -1,0 +1,15 @@
+C:\git\docker\dotnet\bin\Debug\net8.0\DotNet.Docker.exe
+C:\git\docker\dotnet\bin\Debug\net8.0\DotNet.Docker.deps.json
+C:\git\docker\dotnet\bin\Debug\net8.0\DotNet.Docker.runtimeconfig.json
+C:\git\docker\dotnet\bin\Debug\net8.0\DotNet.Docker.dll
+C:\git\docker\dotnet\bin\Debug\net8.0\DotNet.Docker.pdb
+C:\git\docker\dotnet\obj\Debug\net8.0\DotNet.Docker.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\docker\dotnet\obj\Debug\net8.0\DotNet.Docker.AssemblyInfoInputs.cache
+C:\git\docker\dotnet\obj\Debug\net8.0\DotNet.Docker.AssemblyInfo.cs
+C:\git\docker\dotnet\obj\Debug\net8.0\DotNet.Docker.csproj.CoreCompileInputs.cache
+C:\git\docker\dotnet\obj\Debug\net8.0\DotNet.Docker.sourcelink.json
+C:\git\docker\dotnet\obj\Debug\net8.0\DotNet.Docker.dll
+C:\git\docker\dotnet\obj\Debug\net8.0\refint\DotNet.Docker.dll
+C:\git\docker\dotnet\obj\Debug\net8.0\DotNet.Docker.pdb
+C:\git\docker\dotnet\obj\Debug\net8.0\DotNet.Docker.genruntimeconfig.cache
+C:\git\docker\dotnet\obj\Debug\net8.0\ref\DotNet.Docker.dll
