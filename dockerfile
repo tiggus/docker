@@ -6,10 +6,10 @@ WORKDIR /dotnet
 RUN pwd
 RUN ls
 COPY . ./
-RUN ls
+RUN ls -la
 
 # Restore as distinct layers
-RUN dotnet restore "./DotNet.Docker.csproj"
+RUN dotnet restore DotNet.Docker.csproj
 
 # Build and publish a release
 RUN dotnet publish -c Release -o out
