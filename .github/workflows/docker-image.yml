@@ -16,6 +16,10 @@ jobs:
     - uses: actions/checkout@v4
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+    
+    - name: Run direct
+      run: dotnet restore "./dotnet/DotNet.Docker.csproj"
+
         
     - name: Build and push
       uses: docker/build-push-action@v6.0.0
