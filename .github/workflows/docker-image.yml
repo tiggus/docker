@@ -21,7 +21,7 @@ jobs:
       # run: dotnet restore "./dotnet/DotNet.Docker.csproj" --logger:"GitHubActions;report-warnings=true"
       run: |
         cd ./dotnet/
-        dotnet "./dotnet/DotNet.Docker.csproj" list package --vulnerable
+        dotnet list package --vulnerable
 # run: |
 #   command1 --option1
 #   command2 --option2
