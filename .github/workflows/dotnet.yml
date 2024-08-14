@@ -23,6 +23,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore "./dotnet/DotNet.Docker.csproj" 
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build "./dotnet/DotNet.Docker.csproj" --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
