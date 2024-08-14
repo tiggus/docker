@@ -1,0 +1,11 @@
+
+The following sources were used:
+   https://api.nuget.org/v3/index.json
+
+Project `DotNet.Docker` has the following vulnerable packages
+   [net8.0]: 
+   Top-level Package      Requested   Resolved   Severity   Advisory URL                                     
+   > Azure.Identity       1.5.0       1.5.0      High       https://github.com/advisories/GHSA-5mfx-4wcx-rv27
+                                                 Moderate   https://github.com/advisories/GHSA-wvxc-855f-jvrv
+                                                 Moderate   https://github.com/advisories/GHSA-m5vv-6r4h-3vj9
+

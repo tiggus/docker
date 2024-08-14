@@ -1,33 +1,33 @@
-name: Docker Image CI
+# name: Docker Image CI
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+# on:
+#   push:
+#     branches: [ "main" ]
+#   pull_request:
+#     branches: [ "main" ]
 
-jobs:
+# jobs:
 
-  build:
+#   build:
 
-    runs-on: ubuntu-latest
+#     runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v4
-    # - name: Build the Docker image
-    #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+#     steps:
+#     - uses: actions/checkout@v4
+#     # - name: Build the Docker image
+#     #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     
-    - name: scan-packages
-      # run: dotnet restore "./dotnet/DotNet.Docker.csproj" --logger:"GitHubActions;report-warnings=true"
-      run: |
-        cd ./dotnet/
-        dotnet list package --vulnerable
-# run: |
-#   command1 --option1
-#   command2 --option2
+#     # - name: scan-packages
+#     #   # run: dotnet restore "./dotnet/DotNet.Docker.csproj" --logger:"GitHubActions;report-warnings=true"
+#     #   run: |
+#     #     cd ./dotnet/
+#     #     dotnet list package --vulnerable
+# # run: |
+# #   command1 --option1
+# #   command2 --option2
         
-    # - name: Build and push
-    #   uses: docker/build-push-action@v6.0.0
-    #   with:
-    #     push: false
-    #     tags: user/app:latest
+#     # - name: Build and push
+#     #   uses: docker/build-push-action@v6.0.0
+#     #   with:
+#     #     push: false
+#     #     tags: user/app:latest
